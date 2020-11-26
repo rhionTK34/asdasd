@@ -1,0 +1,32 @@
+:root {
+    
+
+    font-size: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+@media all and (max-width: 768px) {
+    #container {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 464px) {
+    :root {
+        font-size: 80%;
+    }
+}
+
